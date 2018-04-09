@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src='vue.js'></script>
+</head>
+
+<body>
+
+
+    <div id='vue-app'>
+        <a v-bind:href='website'></a>
+        <h1>{{name}}</h1>
+        <h1>{{job}}</h1>
+        <h1>{{greet()}}</h1>
+        <input v-bind:value='name'>
+        <p v-html="websiteTag"></p>
+    </div>
+    
+    <script src='app.js'></script>
+</body>
+
+</html>

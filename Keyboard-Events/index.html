@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src='vue.js'></script>
+</head>
+
+<body>
+
+
+    <div id='vue-app'>
+        <h1>Keyboard Events</h1>
+        <label>Name:</label>
+        <input type='text' v-on:keyup.enter='NameEnter'/>
+        <label>Age:</label>
+        <input type='text' v-on:keyup.enter='AgeEnter'/>
+    </div>
+    
+    <script src='app.js'></script>
+</body>
+
+</html>
