@@ -12,6 +12,12 @@
         <h1>Keyboard Events</h1>
         <label v-if = 'name'>Toggled Name</label>
         <button v-on:click ='toggleName();'>Click ME</button>
+
+        <br><br><br><br>
+
+        <ul>
+            <li v-for='color in colors'>{{color}}</li>
+        </ul>
     </div>
     
     <script src='app.js'></script>

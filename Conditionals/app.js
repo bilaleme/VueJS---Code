@@ -1,7 +1,8 @@
 new Vue({
     el:'#vue-app',
     data:{
-        name : true
+        name : true,
+        colors:['green','blue','red','orange','yellow']
     },
 
     methods:{
